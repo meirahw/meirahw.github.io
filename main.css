@@ -1,0 +1,185 @@
+body {
+    position: relative;
+    background-color: #5e6f79;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/roboto/RobotoCondensed-Bold.ttf);
+    font-family: 'roboto-it';
+    src: url(fonts/roboto/RobotoCondensed-LightItalic.ttf);
+    font-family: 'tinos';
+    src: url(fonts/tinos/Tinos-Italic.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.section-head {
+    color: #ffffff;
+    font-size: 3.5rem;
+    text-align: left;
+    /* letter-spacing: .04em; */
+    text-transform: inherit;
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+    line-height: 1.05;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 7.5rem;
+    text-align: center;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+    line-height: 1.05;
+}
+
+.subtitle {
+    color: #8eb4ce;
+    line-height: 1.35;
+    font-size: 125%;
+    text-align: center;
+    font-family: tinos, sans-serif;
+}
+
+a {
+    color: #78aacc;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #091f2e;
+    box-shadow: 0px 8px 18px #3f474d
+}
+
+#section1 {
+    padding-top: 50px;
+    height: 875px;
+    color: #fff;
+    background-color: #5f6f7a;
+    background-image: url(images/SandiaMtnNM.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.personal-statement {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #FFFFFF;
+    font-family: tinos, sans-serif;
+    font-size: 120%;
+}
+
+@media (max-width: 450px) {
+    .personal-statement {
+        text-align: center;
+        padding: 50px;
+    }
+}
+
+@media (min-width: 451px) {
+    .personal-statement {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+
+#section2 {
+    padding-top: 2px;
+    height: 750px;
+    color: #fff;
+    background-color: #30414b;
+    background-image: url(images/current-research.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.research-block1 {
+    background-color: #ffffff;
+    background-image: url(images/nnRiskMap.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.research-block2 {
+    background-image: url(images/coveSheep.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.research-block3 {
+    background-color: #ffffff;
+    background-image: url(images/uraniumSWAT.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.research-block4 {
+    background-color: #ffffff;
+    background-image: url(images/LRGpecans.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.research-block5 {
+    background-color: #ffffff;
+    /* background-image: url(; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+.research-block6 {
+    background-color: #ffffff;
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 75%;
+    height: 450px;
+    width: 325px;
+    border-radius: 15px;
+}
+
+/* new code */
+.hoverable {
+    display:none;
+    background-color: #ffffff;
+    opacity:60%;
+}
+
+div .hoverable {
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 10px;
+    size: 110%;
+    line-height: 1.35;
+    font-size: 100%;
+    text-align: center;
+    font-family: tinos, sans-serif; 
+    opacity: 75%;
+}
