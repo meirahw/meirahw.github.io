@@ -1,4 +1,6 @@
-var map = L.map(‘map’).setView([51.505, -0.09], 13);
+<div id="my-custom-map" style="width: 600px; height: 400px"></div>
+
+var map = L.map(‘my-custom-map’).setView([51.505, -0.09], 13);
 
 L.tileLayer(‘https://tile.openstreetmap.org/{z}/{x}/{y}.png’, { attribution: ‘© OpenStreetMap contributors’ }).addTo(map);
 
