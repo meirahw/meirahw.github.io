@@ -60,7 +60,7 @@ nav .navbar-nav li a {
 
 #section1 {
     padding-top: 20px;
-    height: 875px;
+    min-height: 750px;
     color: #253228;
     background-image: url(../images/sweetwater.jpg);
     background-repeat: no-repeat;
