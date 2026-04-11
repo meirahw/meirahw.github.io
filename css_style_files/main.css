@@ -26,9 +26,9 @@ body {
 .title {
     padding-top: 20px;
     color: #253228;
-    font-size: 6rem;
+    font-size: clamp(2.5rem, 10vw, 6rem);
     text-align: center;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     font-family: roboto, sans-serif;
     font-weight: 100;
@@ -37,10 +37,11 @@ body {
 
 .subtitle {
     color: #253228;
-    line-height: 1.35;
-    font-size: 125%;
+    line-height: 1.4;
+    font-size: clamp(1.5rem, 1.7vw, 2rem);
     text-align: center;
     font-family: tinos, sans-serif;
+    margin-top: 10px;
 }
 
 a {
@@ -71,16 +72,16 @@ nav .navbar-nav li a {
 
 .personal-statement {
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 800px;
+    width: 90%;
+    padding: clamp(16px, 2vw, 20px);
     color: #253228;
     font-family: tinos, sans-serif;
-    font-size: 125%;
-    /*margin-left: clamp(20px, 10vw, 100px);*/
-    background-color: rgba(221, 229, 232, 0.8);
-    border-radius: 25px;
+    font-size: clamp(1.5rem, 1.7vw, 2rem);
+    margin-left: clamp(20px, 10vw, 120px);
+    margin-right: 20px;
+    background-color: rgba(221, 229, 232, 0.85);
+    border-radius: 20px;
 }
 
 .contact-info {
@@ -88,15 +89,6 @@ nav .navbar-nav li a {
     font-size: 125%;
     color: #EEEAE9;
 }
-
-/* .row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-    padding: 5px;
-} */
 
 @media (max-width: 450px) {
     .personal-statement {
@@ -111,7 +103,6 @@ nav .navbar-nav li a {
         margin: 0 auto;
     }
 }
-
 
 #section2 {
     padding-top: 2px;
