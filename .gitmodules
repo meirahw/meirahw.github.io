@@ -1,0 +1,3 @@
+[submodule "MyWebApp"]
+	path = MyWebApp
+	url = https://github.com/meirahw/geog585-final-project.git

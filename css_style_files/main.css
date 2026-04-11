@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-color: #FFED96;
+    background-color: #572B28;
 }
 
 @font-face {
@@ -8,8 +8,6 @@ body {
     src: url(fonts/roboto/RobotoCondensed-Bold.ttf);
     font-family: 'roboto-it';
     src: url(fonts/roboto/RobotoCondensed-LightItalic.ttf);
-    font-family: 'tinos';
-    src: url(fonts/tinos/Tinos-Italic.ttf);
     font-style: normal;
     font-weight: 100;
 }
@@ -26,7 +24,8 @@ body {
 }
 
 .title {
-    color: #ffffff;
+    padding-top: 20px;
+    color: #253228;
     font-size: 7.5rem;
     text-align: center;
     letter-spacing: .04em;
@@ -37,7 +36,7 @@ body {
 }
 
 .subtitle {
-    color: #8eb4ce;
+    color: #253228;
     line-height: 1.35;
     font-size: 125%;
     text-align: center;
@@ -45,39 +44,63 @@ body {
 }
 
 a {
-    color: #78aacc;
+    color: #253228;
     text-decoration: underline;
 }
 
+nav .navbar-nav li a {
+    color: #253228 !important;
+    font-size: 1.5rem;
+}
+
 .navbar {
-    background-color: #091f2e;
-    box-shadow: 0px 8px 18px #3f474d
+    background-color: #BAA09F;
+    box-shadow: 0px 2px 18px #B6BFC4;
 }
 
 #section1 {
-    padding-top: 50px;
+    padding-top: 20px;
     height: 875px;
-    color: #fff;
-    background-color: #5f6f7a;
-    background-image: url(images/SandiaMtnNM.jpg);
+    color: #253228;
+    background-image: url(../images/sweetwater.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: light;
 }
 
 .personal-statement {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: #FFFFFF;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #253228;
     font-family: tinos, sans-serif;
-    font-size: 120%;
+    font-size: 125%;
+    /*margin-left: clamp(20px, 10vw, 100px);*/
+    background-color: rgba(221, 229, 232, 0.8);
+    border-radius: 25px;
 }
+
+.contact-info {
+    font-family: tinos, sans-serif;
+    font-size: 125%;
+    color: #EEEAE9;
+}
+
+/* .row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+} */
 
 @media (max-width: 450px) {
     .personal-statement {
-        text-align: center;
+        text-align: left;
         padding: 50px;
     }
 }
@@ -167,9 +190,9 @@ a {
 
 /* new code */
 .hoverable {
-    display:none;
+    display: none;
     background-color: #ffffff;
-    opacity:60%;
+    opacity: 60%;
 }
 
 div .hoverable {
@@ -180,6 +203,6 @@ div .hoverable {
     line-height: 1.35;
     font-size: 100%;
     text-align: center;
-    font-family: tinos, sans-serif; 
+    font-family: tinos, sans-serif;
     opacity: 75%;
 }
