@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-color: #572B28;
+    background-color: #BAA09F;
 }
 
 @font-face {
@@ -74,7 +74,7 @@ nav .navbar-nav li a {
     text-align: left;
     max-width: 800px;
     width: 90%;
-    padding: clamp(10px, 2.5vw, 20px);;
+    padding: clamp(10px, 2.5vw, 20px);
     margin: 20px auto;
     color: #253228;
     font-family: tinos, sans-serif;
