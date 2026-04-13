@@ -4,10 +4,10 @@ body {
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(fonts/roboto/RobotoCondensed-Bold.ttf);
-    font-family: 'roboto-it';
-    src: url(fonts/roboto/RobotoCondensed-LightItalic.ttf);
+    font-family: 'roboto-medium';
+    src: url(./fonts/roboto/Roboto-Medium.ttf);
+    font-family: 'roboto-light';
+    src: url(./fonts/roboto/Roboto-Light.ttf);
     font-style: normal;
     font-weight: 100;
 }
@@ -18,7 +18,7 @@ body {
     text-align: left;
     /* letter-spacing: .04em; */
     text-transform: inherit;
-    font-family: roboto, sans-serif;
+    font-family: roboto-medium, sans-serif;
     font-weight: 100;
     line-height: 1.05;
 }
@@ -40,7 +40,7 @@ body {
     line-height: 1.4;
     font-size: clamp(1.5rem, 1.7vw, 2rem);
     text-align: center;
-    font-family: tinos, sans-serif;
+    font-family: roboto-medium, sans-serif;
     margin-top: 10px;
 }
 
@@ -77,14 +77,14 @@ nav .navbar-nav li a {
     padding: clamp(10px, 2.5vw, 20px);
     margin: 20px auto;
     color: #253228;
-    font-family: tinos, sans-serif;
+    font-family: roboto-medium, sans-serif;
     font-size: clamp(1.5rem, 1.7vw, 2rem);
     background-color: rgba(221, 229, 232, 0.85);
     border-radius: 20px;
 }
 
 .contact-info {
-    font-family: tinos, sans-serif;
+    font-family: roboto-medium, sans-serif;
     font-size: 125%;
     color: #EEEAE9;
 }
@@ -92,7 +92,7 @@ nav .navbar-nav li a {
 @media (max-width: 450px) {
     .personal-statement {
         text-align: left;
-        padding: 50px;
+        padding: 10px 16px;
     }
 }
 
@@ -101,98 +101,4 @@ nav .navbar-nav li a {
         max-width: 600px;
         margin: 0 auto;
     }
-}
-
-#section2 {
-    padding-top: 2px;
-    height: 750px;
-    color: #fff;
-    background-color: #30414b;
-    background-image: url(images/current-research.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.research-block1 {
-    background-color: #ffffff;
-    background-image: url(images/nnRiskMap.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-.research-block2 {
-    background-image: url(images/coveSheep.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-.research-block3 {
-    background-color: #ffffff;
-    background-image: url(images/uraniumSWAT.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-.research-block4 {
-    background-color: #ffffff;
-    background-image: url(images/LRGpecans.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-.research-block5 {
-    background-color: #ffffff;
-    /* background-image: url(; */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-.research-block6 {
-    background-color: #ffffff;
-    /* background-image: url(); */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 75%;
-    height: 450px;
-    width: 325px;
-    border-radius: 15px;
-}
-
-/* new code */
-.hoverable {
-    display: none;
-    background-color: #ffffff;
-    opacity: 60%;
-}
-
-div .hoverable {
-    color: #000000;
-    background-color: #ffffff;
-    padding-top: 10px;
-    size: 110%;
-    line-height: 1.35;
-    font-size: 100%;
-    text-align: center;
-    font-family: tinos, sans-serif;
-    opacity: 75%;
 }
